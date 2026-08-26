@@ -1,9 +1,11 @@
 package GemminiPracticeClassInheritensMars.Units;
 
-public class ExplorerDrone extends MarsUnit{
+
+public class ExplorerDrone extends MarsUnit {
 
     public ExplorerDrone(String id, int batteryLevel, Status status) {
-        super(id, batteryLevel, status);
+        super(id, batteryLevel, status, DroneCharacteristics.EXPLORERDRONE.getHp(),
+                DroneCharacteristics.EXPLORERDRONE.getDamage());
     }
 
     @Override
