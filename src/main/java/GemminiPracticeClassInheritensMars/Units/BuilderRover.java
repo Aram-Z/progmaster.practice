@@ -3,7 +3,7 @@ package GemminiPracticeClassInheritensMars.Units;
 public class BuilderRover extends MarsUnit{
 
     public BuilderRover(String id, int batteryLevel, Status status) {
-        super(id, batteryLevel, status);
+        super("111", 111, Status.IDLE, 100, 0);
     }
 
     @Override

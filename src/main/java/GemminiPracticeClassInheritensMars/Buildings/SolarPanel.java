@@ -28,7 +28,9 @@ public class SolarPanel extends Building{
 
     // ezt még nem tudom, mire mennyi energiát fog használni,
     // valoszinüleg egy enumban rögzitem majd mi mennyit használ
-    public void useEnergy(){}
+    public void useEnergy(){
+
+    }
 
     public void shieldGenerator() {
         if (isShieldActive() == true && getEnergy() - 8 >= 0) {
